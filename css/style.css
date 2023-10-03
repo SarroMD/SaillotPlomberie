@@ -283,15 +283,161 @@ h6,
     left: 3px;
 }
 
+/*** Icones Services ***/
+
+.service-item:hover .service-icon {
+    background-image: url(../img/icon-shape-white.png);
+}
+
+.service-item .icone-custom {
+    background-image: url(../img/icone-chauffeau.png);
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+
+.service-item:hover .icone-custom {
+    background-image: url(../img/icone-chauffeau-color.png);
+}
+
+.service-item .icone-custom2 {
+    background-image: url(../img/icone-depannage.png);
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+
+.service-item:hover .icone-custom2 {
+    background-image: url(../img/icone-depannage-color.png);
+}
+
+.service-item .icone-custom3 {
+    background-image: url(../img/icone-travaux.png);
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+
+.service-item:hover .icone-custom3 {
+    background-image: url(../img/icone-travaux-color.png);
+}
+
+.service-item .icone-custom4 {
+    background-image: url(../img/icone-fuite.png);
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+    margin-left: 5px;
+}
+
+.service-item:hover .icone-custom4 {
+    background-image: url(../img/icone-fuite-color.png);
+}
+
+.service-item .icone-custom5 {
+    background-image: url(../img/icone-renovation.png);
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+    margin-bottom: 6px;
+}
+
+.service-item:hover .icone-custom5 {
+    background-image: url(../img/icone-renovation-color.png);
+}
+
+.service-item .icone-custom6 {
+    background-image: url(../img/icone-plus.png);
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+
+.service-item:hover .icone-custom6 {
+    background-image: url(../img/icone-plus-color.png);
+}
+
+.service-item .icone-custom7 {
+    background-image: url(../img/icone-detartrage.png);
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+
+.service-item:hover .icone-custom7 {
+    background-image: url(../img/icone-detartrage-color.png);
+}
+
+.service-item .icone-custom8 {
+    background-image: url(../img/icone-plat.png);
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+
+.service-item:hover .icone-custom8 {
+    background-image: url(../img/icone-plat-color.png);
+}
+
+.service-item .icone-custom9 {
+    background-image: url(../img/icone-chaufpanne.png);
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+
+.service-item:hover .icone-custom9 {
+    background-image: url(../img/icone-chaufpanne-color.png);
+}
+
+.service-item .icone-custom10 {
+    background-image: url(../img/icone-thermostat.png);
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+
+.service-item:hover .icone-custom10 {
+    background-image: url(../img/icone-thermostat-color.png);
+}
+
+.service-item .icone-custom11 {
+    background-image: url(../img/icone-resistance.png);
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+
+.service-item:hover .icone-custom11 {
+    background-image: url(../img/icone-resistance-color.png);
+}
+
+.service-item .icone-custom12 {
+    background-image: url(../img/icone-horizontale.png);
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+    margin-top: 5px;
+}
+
+.service-item:hover .icone-custom12 {
+    background-image: url(../img/icone-horizontale-color.png);
+}
 
 /*** Service ***/
+
+.price {
+    color: #3A708F;
+}
+
 .custom-text {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+    color: rgb(66, 65, 65);
 }
 
 .service-item {
     position: relative;
-    height: 350px;
+    height: 100%;
     padding: 30px 25px;
     background: #FFFFFF;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
@@ -311,14 +457,6 @@ h6,
     justify-content: center;
     background: url(../img/icon-shape-primary.png) center center no-repeat;
     transition: .5s;
-}
-
-.service-item:hover .service-icon {
-    background: url(../img/icon-shape-white.png);
-}
-
-.service-item:hover .icone-custom {
-    filter: drop-shadow(0px 0px 0px #3A708F);
 }
 
 .service-item h5,
